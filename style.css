@@ -1,0 +1,26 @@
+
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1100px !important;
+    margin: 20px auto;
+}
+
+.wrapper{
+    margin: 0 20px;
+}
+
+.navbar{
+    padding: 2px 0;
+    background: rgb(138, 138, 228);
+
+}
+
+.logo{
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+}

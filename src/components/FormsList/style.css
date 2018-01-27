@@ -1,0 +1,29 @@
+.image-wrap{
+    height: 210px;
+    overflow: hidden;
+    float: left;
+}
+
+.image{
+
+    height: 250px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.title{
+    overflow: hidden;
+    height: 30px;
+}
+
+.description{
+    overflow: hidden;
+    height: 60px;
+}
+
