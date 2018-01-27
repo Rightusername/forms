@@ -25,7 +25,7 @@ class FormsList extends React.Component{
     }
 
     componentDidMount(){
-        props.actions.getForms();
+        this.props.actions.getForms();
     }
 
     render(){
