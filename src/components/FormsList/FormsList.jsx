@@ -20,10 +20,12 @@ const mapDispatchToProps = dispatch => ({
 })
 
 class FormsList extends React.Component{
-    
+    constructor(props){
+        super();
+    }
 
     componentDidMount(){
-        this.props.actions.getForms();
+        props.actions.getForms();
     }
 
     render(){
